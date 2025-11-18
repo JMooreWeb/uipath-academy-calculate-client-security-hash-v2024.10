@@ -1,0 +1,6 @@
+{
+  "Name": "Calculate Client Security Hash",
+  "ProjectType": "Process",
+  "Description": "Calculate Client Security Hash Robotic Enterprise Framework",
+  "MainFile": "Main.xaml"
+}

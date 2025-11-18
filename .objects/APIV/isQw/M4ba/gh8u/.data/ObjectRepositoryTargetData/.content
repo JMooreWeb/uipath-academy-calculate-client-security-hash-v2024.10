@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="RNZ6UNB7J0-HFhV-cbbbiQ" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="codebeautify.org/sha1-hash-generator" CVScreenId="478f09df-d905-45eb-9ae9-3c169862c8cc" CvElementArea="451, 545, 16, 16" CvType="CheckBox" DesignTimeRectangle="453, 546, 13, 13" ElementType="CheckBox" ElementVisibilityArgument="Interactive" FuzzySelectorArgument="&lt;webctrl id='isAuto' tag='INPUT' type='checkbox' class='' aaname='' matching:id='fuzzy' fuzzylevel:id='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' /&gt;" Guid="29a2cec7-94e0-4bb7-a452-a532f3902f63" ScopeSelectorArgument="&lt;html app='msedge.exe' title='SHA-1 Hash Generator Online Tool' /&gt;" SearchSteps="FuzzySelector, CV" Version="V6" WaitForReadyArgument="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="478f09df-d905-45eb-9ae9-3c169862c8cc" CvElementArea="451, 545, 16, 16" CvTextArea="468, 546, 37, 14" CvTextArgument="Auto" CvType="CheckBox" DesignTimeRectangle="453, 543, 51, 20" ElementType="Text" FuzzySelectorArgument="&lt;webctrl tag='LABEL' type='' class='checkbox mb-2 mr-2' aaname='  Auto ' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' check:innerText='Auto' /&gt;" Guid="7c0450c5-d3a2-4186-8770-9e3d26b9ef24" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="8972a2dd3066f9ca25c0d907d282be17.png" xmlns="">0GmwSGhxO70Sqg_KOvOJOVg</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Check</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

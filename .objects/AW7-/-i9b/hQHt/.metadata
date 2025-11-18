@@ -1,0 +1,16 @@
+﻿{
+  "Name": "ACME System 1 - Update Work Item",
+  "Type": "Screen",
+  "Id": "hQHtubu8O0SneVCo6lp3Aw",
+  "Reference": "9XvhSLxUqk2nJyz-t8UiHg/hQHtubu8O0SneVCo6lp3Aw",
+  "ParentRef": "9XvhSLxUqk2nJyz-t8UiHg/-i9boH81aECGVWatwJmSCQ",
+  "Created": "2025-11-14T05:41:04.1523665Z",
+  "Updated": "2025-11-14T13:20:39.5467601Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.19.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.10.1.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "UpdatedBy": [
+    "UiPath.Platform, Version=25.10.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

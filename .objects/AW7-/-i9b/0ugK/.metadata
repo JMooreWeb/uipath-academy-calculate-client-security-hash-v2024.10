@@ -1,0 +1,15 @@
+﻿{
+  "Name": "ACME System 1 - Log In",
+  "Type": "Screen",
+  "Id": "0ugK8wpHyEqvxMAV1QGcNA",
+  "Reference": "9XvhSLxUqk2nJyz-t8UiHg/0ugK8wpHyEqvxMAV1QGcNA",
+  "ParentRef": "9XvhSLxUqk2nJyz-t8UiHg/-i9boH81aECGVWatwJmSCQ",
+  "Created": "2025-11-14T13:24:12.8366465Z",
+  "Updated": "2025-11-14T13:24:44.2727332Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=25.10.1.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "UpdatedBy": [
+    "UiPath.Platform, Version=25.10.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

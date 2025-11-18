@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="QVZ6Ohbwu0aOARxsCAAAuA" Reference="9XvhSLxUqk2nJyz-t8UiHg/qk8lCtqYg0qIk5ZujxU-FQ" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="acme-test.uipath.com/work-items" CVScreenId="807ab3b6-185a-4e4b-a16c-d4931a2d829d" CvTextArea="1235, 99, 52, 16" CvTextArgument="Log Out" CvType="Text" DesignTimeRectangle="1786, 82, 80, 50" ElementType="Text" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl aaname='Log Out' tag='A' innertext='Log Out' /&gt;" Guid="8db0cb6c-9ad4-43f3-80a1-c23e611fea29" ScopeSelectorArgument="&lt;html app='msedge.exe' title='ACME System 1 - Work Items' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="c2f5f568f8f0385c6fce7827156aee2e.png" xmlns="">0i0GHnaVsDUKy-MzlRgTp0Q</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

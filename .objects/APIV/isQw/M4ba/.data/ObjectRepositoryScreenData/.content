@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryScreenData ContentHash="Y_y7pKAQvEecPpUvb5uTCA" Reference="9XvhSLxUqk2nJyz-t8UiHg/M4ba3XmL4EKVVf_eVvry4w" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:p="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryScreenData.Data>
+    <TargetApp x:Key="TargetApp" Area="2568, 4, 1447, 1101" BrowserType="Edge" ContentHash="BOk1MDH5nUSbCa3FhKHEAw" IconBase64="iVBORw0KGgoAAAANSUhEUgAAABwAAAAcCAYAAAByDd+UAAAABGdBTUEAAYagMeiWXwAAATZJREFUSEvtk1kNhEAQBVcXAjCAAARgAAEYQAD/GEAABhCAAAwggE2RNHlzkN0sR/aDSiYhc3T19DSv5WZe/sTVPMLT+S/hNE3LMAzrmOfZX/6JqBBBnudLkiTOqKoqEDdNs61/QyDsui4Q6SARlR4SUkINzE0BAbezNSTGIWFd1+vBNE2D0kFRFFsyhgo5Qwz2keA4js55cIT2bmVZ6vQGFfATUaH/7iTuSx1hrGSfUCGJkhCJZVkWVANOFept2rbd5knAiAp5hxh60NhrGhrO5q35wBHGmkJhnXehIYxDQv0H+VY0wJ5QK6CxdksK2mnciID6DzL0rVSoiVi1aB4lENJlfnvr8G+uQoJz1jqU0fe9sz8QGgQmYzK1m8aahn22h3V+DZP7ycGu8Coe4ek8wtO5XfgGVocJtnI2RaYAAAAASUVORK5CYII=" Reference="9XvhSLxUqk2nJyz-t8UiHg/M4ba3XmL4EKVVf_eVvry4w" Selector="&lt;html app='msedge.exe' title='SHA-1 Hash Generator Online Tool' /&gt;" Version="V2">
+      <TargetApp.Arguments>
+        <p:InArgument x:TypeArguments="x:String" />
+      </TargetApp.Arguments>
+      <TargetApp.WorkingDirectory>
+        <p:InArgument x:TypeArguments="x:String" />
+      </TargetApp.WorkingDirectory>
+      <imageRef attrName="InformativeScreenshot" originalValue="2d4ac323ecaf6028731891efdc165c46.jpg" xmlns="">0DEpY5u35m0Sw_4TQ1n1lVw</imageRef>
+    </TargetApp>
+  </ObjectRepositoryScreenData.Data>
+</ObjectRepositoryScreenData>

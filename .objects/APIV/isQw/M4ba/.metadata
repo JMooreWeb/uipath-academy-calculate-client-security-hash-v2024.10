@@ -1,0 +1,16 @@
+﻿{
+  "Name": "SHA-1 Hash Generator Online Tool",
+  "Type": "Screen",
+  "Id": "M4ba3XmL4EKVVf_eVvry4w",
+  "Reference": "9XvhSLxUqk2nJyz-t8UiHg/M4ba3XmL4EKVVf_eVvry4w",
+  "ParentRef": "9XvhSLxUqk2nJyz-t8UiHg/isQw81HXc0WyOCpF6wVcvw",
+  "Created": "2025-11-14T01:46:56.4545168Z",
+  "Updated": "2025-11-14T12:57:14.2108821Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.19.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.10.1.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "UpdatedBy": [
+    "UiPath.Platform, Version=25.10.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

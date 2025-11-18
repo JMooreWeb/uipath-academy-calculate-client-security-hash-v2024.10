@@ -1,0 +1,17 @@
+﻿{
+  "Name": "Plain or Cipher Text",
+  "Type": "Element",
+  "TaxonomyType": "Input",
+  "Id": "aTWjXplPlUS9l1joTpoj4w",
+  "Reference": "9XvhSLxUqk2nJyz-t8UiHg/aTWjXplPlUS9l1joTpoj4w",
+  "ParentRef": "9XvhSLxUqk2nJyz-t8UiHg/M4ba3XmL4EKVVf_eVvry4w",
+  "Created": "2025-11-14T01:48:37.3090133Z",
+  "Updated": "2025-11-14T12:59:00.5388923Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.19.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.10.1.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "UpdatedBy": [
+    "UiPath.Platform, Version=25.10.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

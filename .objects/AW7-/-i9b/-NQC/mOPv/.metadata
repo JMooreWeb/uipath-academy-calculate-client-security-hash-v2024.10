@@ -1,0 +1,16 @@
+﻿{
+  "Name": "Log Out",
+  "Type": "Element",
+  "TaxonomyType": "Link",
+  "Id": "mOPvb4LrTkGc31uggHUJsg",
+  "Reference": "9XvhSLxUqk2nJyz-t8UiHg/mOPvb4LrTkGc31uggHUJsg",
+  "ParentRef": "9XvhSLxUqk2nJyz-t8UiHg/-NQCBsWVY0GDVGVLpJoqcQ",
+  "Created": "2025-11-14T13:52:07.0903883Z",
+  "Updated": "2025-11-14T13:52:55.8101253Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=25.10.1.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "UpdatedBy": [
+    "UiPath.Platform, Version=25.10.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}
