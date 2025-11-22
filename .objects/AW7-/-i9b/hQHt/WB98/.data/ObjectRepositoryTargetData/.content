@@ -1,8 +1,13 @@
 <?xml version="1.0" encoding="utf-16"?>
-<ObjectRepositoryTargetData ContentHash="m3WxVqvyQkiNHVpXZRfSEw" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+<ObjectRepositoryTargetData ContentHash="k5kd26aVx0Oj22EE9gavEw" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
   <ObjectRepositoryTargetData.Data>
-    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="acme-test.uipath.com/work-items/update/108111801" CVScreenId="e35c6cf8-0385-4d77-99a1-b4fe91b3b37d" CvElementArea="53, 488, 159, 36" CvTextArea="84, 499, 114, 16" CvTextArgument="Update Work Item" CvType="Button" DesignTimeRectangle="54, 489, 156, 34" ElementType="Button" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl id='buttonUpdate' tag='BUTTON' aaname=' Update Work Item' /&gt;" Guid="54fa9862-2a1b-46e2-b531-35b71fe860c0" ScopeSelectorArgument="&lt;html app='msedge.exe' htmlwindowname='WI-Update' title='ACME System 1' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="None">
-      <imageRef attrName="InformativeScreenshot" originalValue="ea2df56e703c300a9e168a3cd7e41ae1.png" xmlns="">0bEDXoJ-grUO-eV13BsDqXg</imageRef>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="acme-test.uipath.com/work-items/update/108167366" CVScreenId="447672ee-853a-47cb-97fc-9c87e038b632" CvElementArea="53, 488, 159, 36" CvTextArea="84, 499, 114, 16" CvTextArgument="Update Work Item" CvType="Button" DesignTimeRectangle="54, 489, 156, 34" ElementType="Button" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl id='buttonUpdate' tag='BUTTON' /&gt;" Guid="11b5dc7e-d8db-4fc8-ae53-365569ada55c" ScopeSelectorArgument="&lt;html app='msedge.exe' htmlwindowname='WI-Update' title='ACME System 1' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="447672ee-853a-47cb-97fc-9c87e038b632" CvTextArea="53, 181, 146, 20" CvTextArgument="Update Work Item" CvType="Text" DesignTimeRectangle="54, 181, 343, 20" ElementType="Text" FuzzySelectorArgument="&lt;webctrl tag='H4' type='' class='' aaname='Update Work Item' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' check:innerText='Update Work Item' /&gt;" Guid="c15d781f-6f54-4541-9f42-58c77379556b" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="c431208dcccc6d19724a5991787c5fd7.png" xmlns="">0ddib3UYQwUCoHsWeq5zOCQ</imageRef>
     </TargetAnchorable>
     <x:String x:Key="ActivityType">Click</x:String>
   </ObjectRepositoryTargetData.Data>

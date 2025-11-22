@@ -87,7 +87,7 @@
       <AssemblyReference>System.Linq.Expressions</AssemblyReference>
     </sco:Collection>
   </TextExpression.ReferencesForImplementation>
-  <Sequence sap2010:Annotation.AnnotationText="Closes System 1 in Microsoft Edge browser.&#xA;&#xA;Pre-condition: System 1 Opened, Log Out button accessible&#xA;Post-action: Logs Out and Closes the browser" DisplayName="System1_Close" sap:VirtualizedContainerService.HintSize="1562,855.6566666666666" sap2010:WorkflowViewState.IdRef="Sequence_1">
+  <Sequence sap2010:Annotation.AnnotationText="Closes System 1 in Microsoft Edge browser.&#xA;&#xA;Pre-condition: System 1 Opened, Log Out button accessible&#xA;Post-action: Logs Out and Closes the browser" DisplayName="System1_Close" sap:VirtualizedContainerService.HintSize="1299,880.6566666666666" sap2010:WorkflowViewState.IdRef="Sequence_1">
     <sap:WorkflowViewStateService.ViewState>
       <scg:Dictionary x:TypeArguments="x:String, x:Object">
         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
@@ -107,9 +107,9 @@
                 <x:Boolean x:Key="IsExpanded">True</x:Boolean>
               </scg:Dictionary>
             </sap:WorkflowViewStateService.ViewState>
-            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Log Out'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,185" sap2010:WorkflowViewState.IdRef="NClick_1" InteractionMode="SameAsCard" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="f489ebc3-c7a9-45cf-b3c1-1a595dc096fe" Version="V5">
+            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Log Out'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,185" sap2010:WorkflowViewState.IdRef="NClick_2" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="f489ebc3-c7a9-45cf-b3c1-1a595dc096fe" Version="V5">
               <uix:NClick.Target>
-                <uix:TargetAnchorable BrowserURL="acme-test.uipath.com/work-items" CVScreenId="807ab3b6-185a-4e4b-a16c-d4931a2d829d" ContentHash="7HoLW2CyKkOj001wzGrXZw" CvTextArea="1235, 99, 52, 16" CvTextArgument="Log Out" CvType="Text" DesignTimeRectangle="1786, 82, 80, 50" ElementType="Text" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl aaname='Log Out' tag='A' innertext='Log Out' /&gt;" Guid="8db0cb6c-9ad4-43f3-80a1-c23e611fea29" InformativeScreenshot="c2f5f568f8f0385c6fce7827156aee2e.png" Reference="9XvhSLxUqk2nJyz-t8UiHg/qk8lCtqYg0qIk5ZujxU-FQ" ScopeSelectorArgument="&lt;html app='msedge.exe' title='ACME System 1 - Work Items' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive" />
+                <uix:TargetAnchorable BrowserURL="acme-test.uipath.com/work-items/108096593" CVScreenId="ea804ddd-8dc7-4617-8fcf-e661d1295748" ContentHash="D2_D29oioUarzO5ofMSAIw" CvTextArea="1235, 99, 52, 16" CvTextArgument="Log Out" CvType="Text" DesignTimeRectangle="1221, 81, 80, 50" ElementType="Text" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl aaname='Log Out' parentid='bs-example-navbar-collapse-1' tag='A' /&gt;" Guid="d8e7baeb-7a07-4fc0-adbf-a6f82bc145b5" InformativeScreenshot="5181d3110336c99781993b611f3fb16c.png" Reference="9XvhSLxUqk2nJyz-t8UiHg/mOPvb4LrTkGc31uggHUJsg" ScopeSelectorArgument="&lt;html app='msedge.exe' title='ACME System 1 - Work Items' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive" />
               </uix:NClick.Target>
             </uix:NClick>
           </Sequence>
