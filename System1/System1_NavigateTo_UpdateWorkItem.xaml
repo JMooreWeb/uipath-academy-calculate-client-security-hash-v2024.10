@@ -91,48 +91,39 @@
       <AssemblyReference>System.Memory</AssemblyReference>
       <AssemblyReference>System.Private.Uri</AssemblyReference>
       <AssemblyReference>System.Linq.Expressions</AssemblyReference>
+      <AssemblyReference>System.Memory.Data</AssemblyReference>
     </sco:Collection>
   </TextExpression.ReferencesForImplementation>
-  <Sequence sap2010:Annotation.AnnotationText="Navigates to Update Work Item Page.&#xA;&#xA;Pre-condition: System 1 Work Items Page is opened&#xA;Post-action: Update Work Item Page opened" DisplayName="System1_NavigateTo_UpdateWorkItem" sap:VirtualizedContainerService.HintSize="1438,880.6566666666666" sap2010:WorkflowViewState.IdRef="Sequence_1">
+  <Sequence sap2010:Annotation.AnnotationText="Navigates to Update Work Item Page.&#xA;&#xA;Pre-condition: System 1 Work Items Page is opened&#xA;Post-action: Update Work Item Page opened" DisplayName="System1_NavigateTo_UpdateWorkItem" sap:VirtualizedContainerService.HintSize="1590.6666666666665,935.6566666666666" sap2010:WorkflowViewState.IdRef="Sequence_1">
     <sap:WorkflowViewStateService.ViewState>
       <scg:Dictionary x:TypeArguments="x:String, x:Object">
         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
         <x:Boolean x:Key="IsAnnotationDocked">True</x:Boolean>
       </scg:Dictionary>
     </sap:WorkflowViewStateService.ViewState>
-    <ui:LogMessage DisplayName="Navigate to ACME System 1 Work Items" sap:VirtualizedContainerService.HintSize="452,175" sap2010:WorkflowViewState.IdRef="LogMessage_1" Level="Info" Message="[&quot;Navigating to ACME System 1 Work Items&quot;]" />
-    <uix:NApplicationCard AttachMode="ByInstance" CloseMode="[UiPath.UIAutomationNext.Enums.NAppCloseMode.Never]" DisplayName="ACME System 1 - Work Items" HealingAgentBehavior="[UiPath.UIAutomationNext.Enums.NHealingAgentBehavior.Disabled]" sap:VirtualizedContainerService.HintSize="452,459" sap2010:WorkflowViewState.IdRef="NApplicationCard_1" InteractionMode="DebuggerApi" OpenMode="[UiPath.UIAutomationNext.Enums.NAppOpenMode.IfNotOpen]" ScopeGuid="d5dbf2e6-19be-4391-aee8-924bf0d35426" Version="V2">
+    <ui:LogMessage DisplayName="Navigate to ACME System 1 Work Items" sap:VirtualizedContainerService.HintSize="452,176.66666666666666" sap2010:WorkflowViewState.IdRef="LogMessage_1" Level="Info" Message="[&quot;Navigating to ACME System 1 Work Items&quot;]" />
+    <uix:NApplicationCard AttachMode="ByInstance" CloseMode="[UiPath.UIAutomationNext.Enums.NAppCloseMode.Never]" DisplayName="ACME System 1 - Work Items" HealingAgentBehavior="[UiPath.UIAutomationNext.Enums.NHealingAgentBehavior.Disabled]" sap:VirtualizedContainerService.HintSize="452,405.3333333333333" sap2010:WorkflowViewState.IdRef="NApplicationCard_1" InteractionMode="DebuggerApi" OpenMode="[UiPath.UIAutomationNext.Enums.NAppOpenMode.IfNotOpen]" ScopeGuid="d5dbf2e6-19be-4391-aee8-924bf0d35426" Version="V2">
       <uix:NApplicationCard.Body>
         <ActivityAction x:TypeArguments="x:Object">
           <ActivityAction.Argument>
             <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
           </ActivityAction.Argument>
-          <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="450,317" sap2010:WorkflowViewState.IdRef="Sequence_2">
+          <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="450,254" sap2010:WorkflowViewState.IdRef="Sequence_2">
             <sap:WorkflowViewStateService.ViewState>
               <scg:Dictionary x:TypeArguments="x:String, x:Object">
                 <x:Boolean x:Key="IsExpanded">True</x:Boolean>
               </scg:Dictionary>
             </sap:WorkflowViewStateService.ViewState>
-            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Update Work Item Change'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,257" sap2010:WorkflowViewState.IdRef="NClick_2" InteractionMode="SameAsCard" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="d5dbf2e6-19be-4391-aee8-924bf0d35426" Version="V5">
+            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Update Work Item Change'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,190" sap2010:WorkflowViewState.IdRef="NClick_2" InteractionMode="HardwareEvents" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="d5dbf2e6-19be-4391-aee8-924bf0d35426" Version="V5">
               <uix:NClick.Target>
                 <uix:TargetAnchorable BrowserURL="acme-test.uipath.com/work-items/108167356" CVScreenId="ef31198a-120d-4a0f-806a-dc42c2fa4ca5" ContentHash="Pio8o4zGMEeIPq-P6kc7vQ" CvElementArea="571, 522, 159, 36" CvTextArea="602, 533, 114, 16" CvTextArgument="Update Work Item" CvType="Button" DesignTimeRectangle="572, 523, 157, 34" ElementType="Button" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl aaname=' Update Work Item' tag='BUTTON' /&gt;" Guid="c6d21e13-1bea-4846-937b-918ff6cb548c" InformativeScreenshot="9779d2c2039748ff6f3a469234d9a158.png" Reference="9XvhSLxUqk2nJyz-t8UiHg/Ktf1wmxf4EW6d5WbL4zs-g" ScopeSelectorArgument="&lt;html app='msedge.exe' title='ACME System 1 - Work Items' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive">
                   <uix:TargetAnchorable.Anchors>
-                    <scg:List x:TypeArguments="uix:ITarget" Capacity="4">
+                    <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
                       <uix:Target CVScreenId="ef31198a-120d-4a0f-806a-dc42c2fa4ca5" CvTextArea="571, 384, 143, 16" CvTextArgument="Work Item Details" CvType="Text" DesignTimeRectangle="572, 384, 374, 19" ElementType="Text" FuzzySelectorArgument="&lt;webctrl type='' tag='H4' class='' aaname='Work Item Details' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' check:innerText='Work Item Details' /&gt;" Guid="8672a668-b8e4-49d8-b09b-9e8bd10953df" SearchSteps="FuzzySelector, CV" />
                     </scg:List>
                   </uix:TargetAnchorable.Anchors>
                 </uix:TargetAnchorable>
               </uix:NClick.Target>
-              <uix:NClick.VerifyOptions>
-                <uix:VerifyExecutionOptions DisplayName="Verification target" IsLoose="True" Mode="Appears">
-                  <uix:VerifyExecutionOptions.Target>
-                    <uix:TargetAnchorable ContentHash="BANOHxLK2kiMN5dRSrpPww" DesignTimeRectangle="8, 0, 450, 664" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;ctrl name='ACME System 1 - Microsoft Edge' role='pane' /&gt;&lt;ctrl idx='2' role='pane' /&gt;" Guid="eefb5f2f-a4a4-49db-ae5b-b67eedf3a7aa" InformativeScreenshot="d1577d0b35dd74e2869f995c81e7bdad.png" Reference="9XvhSLxUqk2nJyz-t8UiHg/r4TzlazLLUOcn0CSKxhv8g" ScopeSelectorArgument="&lt;wnd app='msedge.exe' cls='Chrome_WidgetWin_1' title='ACME System 1 - Personal - Microsoft​ Edge' /&gt;" SearchSteps="Selector" Version="V6" WaitForReadyArgument="Interactive" />
-                  </uix:VerifyExecutionOptions.Target>
-                  <uix:VerifyExecutionOptions.Timeout>
-                    <InArgument x:TypeArguments="x:Double" />
-                  </uix:VerifyExecutionOptions.Timeout>
-                </uix:VerifyExecutionOptions>
-              </uix:NClick.VerifyOptions>
             </uix:NClick>
           </Sequence>
         </ActivityAction>
@@ -158,5 +149,6 @@
         </uix:TargetApp>
       </uix:NApplicationCard.TargetApp>
     </uix:NApplicationCard>
+    <ui:LogMessage DisplayName="Navigate to ACME System 1 Work Items" sap:VirtualizedContainerService.HintSize="452,167.33333333333334" sap2010:WorkflowViewState.IdRef="LogMessage_2" Level="Info" Message="[&quot;End of Navigating to ACME System 1 Work Items&quot;]" />
   </Sequence>
 </Activity>

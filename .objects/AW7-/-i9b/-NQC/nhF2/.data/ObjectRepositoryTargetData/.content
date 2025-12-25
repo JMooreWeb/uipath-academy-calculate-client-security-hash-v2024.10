@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-16"?>
-<ObjectRepositoryTargetData ContentHash="l3TpL9YP9UCY6QEokJqymw" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+<ObjectRepositoryTargetData ContentHash="y9eT61le0UW-RnNbl4IP4w" Reference="9XvhSLxUqk2nJyz-t8UiHg/nhF2GgqtDUCT0UVBboAWSg" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
   <ObjectRepositoryTargetData.Data>
-    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="acme-test.uipath.com/work-items/108096593" CVScreenId="fbc131a6-5d48-4cdd-a881-3953a67f14ad" CvType="AnyWordGroup" DesignTimeRectangle="335, 436, 91, 16" ElementType="Text" ElementVisibilityArgument="Interactive" Guid="5e4631b3-4ff4-4fe2-abe9-67666524bcbb" ScopeSelectorArgument="&lt;html app='msedge.exe' title='ACME System 1 - Work Items' /&gt;" SearchSteps="CV" TargetType="ComputerVisionBased" Version="V6" WaitForReadyArgument="Interactive">
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="acme-test.uipath.com/work-items/108096593" CVScreenId="fbc131a6-5d48-4cdd-a881-3953a67f14ad" CvType="AnyWordGroup" DesignTimeRectangle="335, 436, 91, 16" ElementType="Text" ElementVisibilityArgument="Interactive" Guid="5e4631b3-4ff4-4fe2-abe9-67666524bcbb" IsResponsive="True" ScopeSelectorArgument="&lt;html app='msedge.exe' title='ACME System 1 - Work Items' /&gt;" SearchSteps="CV" TargetType="ComputerVisionBased" Version="V6" WaitForReadyArgument="Interactive">
       <TargetAnchorable.Anchors>
-        <scg:List x:TypeArguments="ITarget" Capacity="4">
+        <scg:List x:TypeArguments="ITarget" Capacity="1">
           <Target CVScreenId="fbc131a6-5d48-4cdd-a881-3953a67f14ad" CvTextArea="246, 436, 86, 13" CvTextArgument="Client Name:" CvType="Text" DesignTimeRectangle="247, 435, 86, 16" FuzzySelectorArgument="&lt;webctrl type='' tag='B' class='' aaname='Client Name:' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' check:innerText='Client Name:' /&gt;" Guid="90293d06-d09c-4c9b-b7ca-bce71655376e" SearchSteps="FuzzySelector, CV" />
         </scg:List>
       </TargetAnchorable.Anchors>
-      <imageRef attrName="InformativeScreenshot" originalValue="5534896b5c73e1e0b014f398c59782e7.png" xmlns="">0CHWoqywkWU205Axjz8jKAA</imageRef>
+      <imageRef attrName="InformativeScreenshot" originalValue="5534896b5c73e1e0b014f398c59782e7.png" xmlns="">0exvH1pYje0yM45obCId-Uw</imageRef>
     </TargetAnchorable>
     <x:String x:Key="ActivityType">GetText</x:String>
   </ObjectRepositoryTargetData.Data>

@@ -101,29 +101,30 @@
       <AssemblyReference>System.Collections</AssemblyReference>
       <AssemblyReference>System.Collections.NonGeneric</AssemblyReference>
       <AssemblyReference>System.Linq.Expressions</AssemblyReference>
+      <AssemblyReference>System.Memory.Data</AssemblyReference>
     </sco:Collection>
   </TextExpression.ReferencesForImplementation>
-  <Sequence sap2010:Annotation.AnnotationText="Updates the Work Item to the Status and Comment using input arguments. Status can be &quot;Open&quot;, &quot;Completed&quot; or &quot;Rejected&quot;.&#xA;&#xA;Pre-condition: System 1 Update Work Item Page is opened&#xA;Post-action: None" DisplayName="System1_UpdateWorkItem" sap:VirtualizedContainerService.HintSize="1432,1227" sap2010:WorkflowViewState.IdRef="Sequence_1">
+  <Sequence sap2010:Annotation.AnnotationText="Updates the Work Item to the Status and Comment using input arguments. Status can be &quot;Open&quot;, &quot;Completed&quot; or &quot;Rejected&quot;.&#xA;&#xA;Pre-condition: System 1 Update Work Item Page is opened&#xA;Post-action: None" DisplayName="System1_UpdateWorkItem" sap:VirtualizedContainerService.HintSize="1584.6666666666665,1422" sap2010:WorkflowViewState.IdRef="Sequence_1">
     <sap:WorkflowViewStateService.ViewState>
       <scg:Dictionary x:TypeArguments="x:String, x:Object">
         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
         <x:Boolean x:Key="IsAnnotationDocked">True</x:Boolean>
       </scg:Dictionary>
     </sap:WorkflowViewStateService.ViewState>
-    <ui:LogMessage DisplayName="Update Work Item" sap:VirtualizedContainerService.HintSize="452,175" sap2010:WorkflowViewState.IdRef="LogMessage_1" Level="Info" Message="[&quot;Updating updated work item...&quot;]" />
-    <uix:NApplicationCard AttachMode="ByInstance" CloseMode="[UiPath.UIAutomationNext.Enums.NAppCloseMode.Always]" DisplayName="ACME System 1 - Update Work Item" HealingAgentBehavior="Job" sap:VirtualizedContainerService.HintSize="452,952" sap2010:WorkflowViewState.IdRef="NApplicationCard_1" InteractionMode="DebuggerApi" OpenMode="[UiPath.UIAutomationNext.Enums.NAppOpenMode.Never]" ScopeGuid="81964f3e-326f-45f4-9a87-343c95a5fb31" Version="V2">
+    <ui:LogMessage DisplayName="Update Work Item" sap:VirtualizedContainerService.HintSize="452,176.66666666666666" sap2010:WorkflowViewState.IdRef="LogMessage_1" Level="Info" Message="[&quot;Updating updated work item...&quot;]" />
+    <uix:NApplicationCard AttachMode="ByInstance" CloseMode="[UiPath.UIAutomationNext.Enums.NAppCloseMode.Always]" DisplayName="ACME System 1 - Update Work Item" HealingAgentBehavior="Job" sap:VirtualizedContainerService.HintSize="452,978" sap2010:WorkflowViewState.IdRef="NApplicationCard_1" InteractionMode="DebuggerApi" OpenMode="[UiPath.UIAutomationNext.Enums.NAppOpenMode.Never]" ScopeGuid="81964f3e-326f-45f4-9a87-343c95a5fb31" Version="V2">
       <uix:NApplicationCard.Body>
         <ActivityAction x:TypeArguments="x:Object">
           <ActivityAction.Argument>
             <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
           </ActivityAction.Argument>
-          <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="450,810" sap2010:WorkflowViewState.IdRef="Sequence_2">
+          <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="450,826.6666666666666" sap2010:WorkflowViewState.IdRef="Sequence_2">
             <sap:WorkflowViewStateService.ViewState>
               <scg:Dictionary x:TypeArguments="x:String, x:Object">
                 <x:Boolean x:Key="IsExpanded">True</x:Boolean>
               </scg:Dictionary>
             </sap:WorkflowViewStateService.ViewState>
-            <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" ClipboardMode="Never" DisplayName="Type Into 'Add Comments'" EmptyFieldMode="SingleLine" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,298" sap2010:WorkflowViewState.IdRef="NTypeInto_1" InteractionMode="SameAsCard" ScopeIdentifier="81964f3e-326f-45f4-9a87-343c95a5fb31" Text="[in_Comment]" Version="V5">
+            <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" ClipboardMode="Never" DisplayName="Type Into 'Add Comments'" EmptyFieldMode="SingleLine" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,304.6666666666667" sap2010:WorkflowViewState.IdRef="NTypeInto_1" InteractionMode="HardwareEvents" ScopeIdentifier="81964f3e-326f-45f4-9a87-343c95a5fb31" Text="[in_Comment]" Version="V5">
               <uix:NTypeInto.Target>
                 <uix:TargetAnchorable BrowserURL="acme-test.uipath.com/work-items/update/108167366" CVScreenId="927d37da-2bc0-43cf-99b8-778058b923c7" ContentHash="_rnFpdnugES_kes70BsOIA" CvElementArea="52, 345, 345, 56" CvType="InputBox" DesignTimeRectangle="54, 346, 343, 54" ElementType="InputBox" ElementVisibilityArgument="Interactive" FuzzySelectorArgument="&lt;webctrl id='newComment' tag='TEXTAREA' type='text' class='form-control' aaname='' matching:id='fuzzy' fuzzylevel:id='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' /&gt;" Guid="82ba40bc-6eb9-420f-88c8-e508bba3a423" InformativeScreenshot="128d1fd7cd54d7489742318ce40e4626.png" IsResponsive="True" Reference="9XvhSLxUqk2nJyz-t8UiHg/5pw6aRd_sUe4Jgnw4xxrrg" ScopeSelectorArgument="&lt;html app='msedge.exe' htmlwindowname='WI-Update' title='ACME System 1' /&gt;" SearchSteps="FuzzySelector, CV" Version="V6" WaitForReadyArgument="Interactive">
                   <uix:TargetAnchorable.Anchors>
@@ -144,7 +145,7 @@
                 </uix:VerifyExecutionTypeIntoOptions>
               </uix:NTypeInto.VerifyOptions>
             </uix:NTypeInto>
-            <uix:NSelectItem DisplayName="Select Completed Status" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,195" sap2010:WorkflowViewState.IdRef="NSelectItem_1" Item="[in_Status]" ScopeIdentifier="81964f3e-326f-45f4-9a87-343c95a5fb31" Version="V5">
+            <uix:NSelectItem DisplayName="Select Completed Status" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,200" sap2010:WorkflowViewState.IdRef="NSelectItem_1" Item="[in_Status]" ScopeIdentifier="81964f3e-326f-45f4-9a87-343c95a5fb31" Version="V5">
               <uix:NSelectItem.Items>
                 <scg:List x:TypeArguments="x:String" Capacity="4">
                   <x:String>---</x:String>
@@ -163,7 +164,7 @@
                 </uix:TargetAnchorable>
               </uix:NSelectItem.Target>
             </uix:NSelectItem>
-            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Update Work Item'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,257" sap2010:WorkflowViewState.IdRef="NClick_1" InteractionMode="Simulate" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="81964f3e-326f-45f4-9a87-343c95a5fb31" Version="V5">
+            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Update Work Item'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,262" sap2010:WorkflowViewState.IdRef="NClick_1" InteractionMode="Simulate" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="81964f3e-326f-45f4-9a87-343c95a5fb31" Version="V5">
               <uix:NClick.Target>
                 <uix:TargetAnchorable BrowserURL="acme-test.uipath.com/work-items/update/108167366" CVScreenId="447672ee-853a-47cb-97fc-9c87e038b632" ContentHash="k5kd26aVx0Oj22EE9gavEw" CvElementArea="53, 488, 159, 36" CvTextArea="84, 499, 114, 16" CvTextArgument="Update Work Item" CvType="Button" DesignTimeRectangle="54, 489, 156, 34" ElementType="Button" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl id='buttonUpdate' tag='BUTTON' /&gt;" Guid="11b5dc7e-d8db-4fc8-ae53-365569ada55c" InformativeScreenshot="c431208dcccc6d19724a5991787c5fd7.png" Reference="9XvhSLxUqk2nJyz-t8UiHg/WB98WCf52ECcgqqsR3xHHA" ScopeSelectorArgument="&lt;html app='msedge.exe' htmlwindowname='WI-Update' title='ACME System 1' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive">
                   <uix:TargetAnchorable.Anchors>
@@ -224,5 +225,6 @@
         </uix:TargetApp>
       </uix:NApplicationCard.TargetApp>
     </uix:NApplicationCard>
+    <ui:LogMessage DisplayName="Update Work Item" sap:VirtualizedContainerService.HintSize="452,167.33333333333334" sap2010:WorkflowViewState.IdRef="LogMessage_2" Level="Info" Message="[&quot;End of Updating updated work item...&quot;]" />
   </Sequence>
 </Activity>

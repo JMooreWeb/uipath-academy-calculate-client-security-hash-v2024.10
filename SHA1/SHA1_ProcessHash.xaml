@@ -109,28 +109,31 @@
       <AssemblyReference>System.Linq.Expressions</AssemblyReference>
       <AssemblyReference>UiPath.CV</AssemblyReference>
       <AssemblyReference>UiPath.CV.Activities</AssemblyReference>
+      <AssemblyReference>System.Memory.Data</AssemblyReference>
+      <AssemblyReference>System.Linq.Async</AssemblyReference>
     </sco:Collection>
   </TextExpression.ReferencesForImplementation>
-  <Sequence sap2010:Annotation.AnnotationText="Retrieves the HashResult based on the input HashFormula.&#xA;&#xA;Pre-condition: SHA1 generator is opened&#xA;Post-action: None" DisplayName="SHA1_ProcessHash" sap:VirtualizedContainerService.HintSize="1562,1165.6566666666668" sap2010:WorkflowViewState.IdRef="Sequence_1">
+  <Sequence sap2010:Annotation.AnnotationText="Retrieves the HashResult based on the input HashFormula.&#xA;&#xA;Pre-condition: SHA1 generator is opened&#xA;Post-action: None" DisplayName="SHA1_ProcessHash" sap:VirtualizedContainerService.HintSize="1584.6666666666665,1302" sap2010:WorkflowViewState.IdRef="Sequence_1">
     <sap:WorkflowViewStateService.ViewState>
       <scg:Dictionary x:TypeArguments="x:String, x:Object">
         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
         <x:Boolean x:Key="IsAnnotationDocked">True</x:Boolean>
       </scg:Dictionary>
     </sap:WorkflowViewStateService.ViewState>
-    <uix:NApplicationCard AttachMode="ByInstance" CloseMode="[UiPath.UIAutomationNext.Enums.NAppCloseMode.Never]" DisplayName="SHA-1 Hash Generator Online Tool" HealingAgentBehavior="[UiPath.UIAutomationNext.Enums.NHealingAgentBehavior.Disabled]" sap:VirtualizedContainerService.HintSize="452,838" sap2010:WorkflowViewState.IdRef="NApplicationCard_2" InteractionMode="DebuggerApi" OpenMode="[UiPath.UIAutomationNext.Enums.NAppOpenMode.Never]" ScopeGuid="70ac9a6e-ee7b-4d8e-8773-92009c4087bd" Version="V2">
+    <ui:LogMessage DisplayName="SHA1 Generated Hash" sap:VirtualizedContainerService.HintSize="452,176.66666666666666" sap2010:WorkflowViewState.IdRef="LogMessage_2" Level="Info" Message="[&quot;Generating SHA1 Hash for &quot; + in_HashFormula + &quot;...&quot;]" />
+    <uix:NApplicationCard AttachMode="ByInstance" CloseMode="[UiPath.UIAutomationNext.Enums.NAppCloseMode.Never]" DisplayName="SHA-1 Hash Generator Online Tool" HealingAgentBehavior="[UiPath.UIAutomationNext.Enums.NHealingAgentBehavior.Disabled]" sap:VirtualizedContainerService.HintSize="452,858" sap2010:WorkflowViewState.IdRef="NApplicationCard_2" InteractionMode="DebuggerApi" OpenMode="[UiPath.UIAutomationNext.Enums.NAppOpenMode.IfNotOpen]" ScopeGuid="70ac9a6e-ee7b-4d8e-8773-92009c4087bd" Version="V2">
       <uix:NApplicationCard.Body>
         <ActivityAction x:TypeArguments="x:Object">
           <ActivityAction.Argument>
             <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
           </ActivityAction.Argument>
-          <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="450,687" sap2010:WorkflowViewState.IdRef="Sequence_5">
+          <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="450,706.6666666666666" sap2010:WorkflowViewState.IdRef="Sequence_5">
             <sap:WorkflowViewStateService.ViewState>
               <scg:Dictionary x:TypeArguments="x:String, x:Object">
                 <x:Boolean x:Key="IsExpanded">True</x:Boolean>
               </scg:Dictionary>
             </sap:WorkflowViewStateService.ViewState>
-            <uix:NCheck Action="Check" DisplayName="Check/Uncheck 'Checkbox'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,195" sap2010:WorkflowViewState.IdRef="NCheck_2" ScopeIdentifier="70ac9a6e-ee7b-4d8e-8773-92009c4087bd" Version="V5">
+            <uix:NCheck Action="Check" DisplayName="Check/Uncheck 'Checkbox'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,200" sap2010:WorkflowViewState.IdRef="NCheck_2" ScopeIdentifier="70ac9a6e-ee7b-4d8e-8773-92009c4087bd" Version="V5">
               <uix:NCheck.Target>
                 <uix:TargetAnchorable BrowserURL="codebeautify.org/sha1-hash-generator" CVScreenId="478f09df-d905-45eb-9ae9-3c169862c8cc" ContentHash="RNZ6UNB7J0-HFhV-cbbbiQ" CvElementArea="451, 545, 16, 16" CvType="CheckBox" DesignTimeRectangle="453, 546, 13, 13" ElementType="CheckBox" ElementVisibilityArgument="Interactive" FuzzySelectorArgument="&lt;webctrl id='isAuto' tag='INPUT' type='checkbox' class='' aaname='' matching:id='fuzzy' fuzzylevel:id='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' /&gt;" Guid="29a2cec7-94e0-4bb7-a452-a532f3902f63" InformativeScreenshot="8972a2dd3066f9ca25c0d907d282be17.png" Reference="9XvhSLxUqk2nJyz-t8UiHg/gh8umxOcfUyIPE2kj1Qzxw" ScopeSelectorArgument="&lt;html app='msedge.exe' title='SHA-1 Hash Generator Online Tool' /&gt;" SearchSteps="FuzzySelector, CV" Version="V6" WaitForReadyArgument="Interactive">
                   <uix:TargetAnchorable.Anchors>
@@ -141,7 +144,7 @@
                 </uix:TargetAnchorable>
               </uix:NCheck.Target>
             </uix:NCheck>
-            <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" ClipboardMode="Never" DisplayName="Type Into 'Enter the plain or Cipher Text'" EmptyFieldMode="SingleLine" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,298" sap2010:WorkflowViewState.IdRef="NTypeInto_1" ScopeIdentifier="70ac9a6e-ee7b-4d8e-8773-92009c4087bd" Text="[in_HashFormula]" Version="V5">
+            <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" ClipboardMode="Never" DisplayName="Type Into 'Enter the plain or Cipher Text'" EmptyFieldMode="SingleLine" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,304.6666666666667" sap2010:WorkflowViewState.IdRef="NTypeInto_1" ScopeIdentifier="70ac9a6e-ee7b-4d8e-8773-92009c4087bd" Text="[in_HashFormula]" Version="V5">
               <uix:NTypeInto.Target>
                 <uix:TargetAnchorable BrowserURL="codebeautify.org/sha1-hash-generator" CVScreenId="5710cf78-ca12-4c22-8a12-3fc09164c2bf" ContentHash="82x2ydTwv0eeMgo7RVcOsQ" CvElementArea="385, 299, 663, 192" CvType="InputBox" DesignTimeRectangle="386, 300, 660, 192" ElementType="InputBox" ElementVisibilityArgument="Interactive" FuzzySelectorArgument="&lt;webctrl id='inputTextArea' tag='TEXTAREA' type='' class='textarea is-large is-primary' placeholder='Enter Text to Generate SHA1 Hash' aaname='' matching:id='fuzzy' fuzzylevel:id='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' /&gt;" Guid="b5744649-dc8b-4013-8d5d-d34e07c7ab52" InformativeScreenshot="eb8444ba9f2a23a1468cf669449a722d.png" IsResponsive="True" Reference="9XvhSLxUqk2nJyz-t8UiHg/aTWjXplPlUS9l1joTpoj4w" ScopeSelectorArgument="&lt;html app='msedge.exe' title='SHA-1 Hash Generator Online Tool' /&gt;" SearchSteps="FuzzySelector, CV" Version="V6" WaitForReadyArgument="Interactive">
                   <uix:TargetAnchorable.Anchors>
@@ -162,7 +165,7 @@
                 </uix:VerifyExecutionTypeIntoOptions>
               </uix:NTypeInto.VerifyOptions>
             </uix:NTypeInto>
-            <uix:NGetText DisplayName="Get Text 'Result of SHA1 Generate…'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,134" sap2010:WorkflowViewState.IdRef="NGetText_1" ScopeIdentifier="70ac9a6e-ee7b-4d8e-8773-92009c4087bd" TextString="[out_HashResult]" Version="V5">
+            <uix:NGetText DisplayName="Get Text 'Result of SHA1 Generate…'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,138" sap2010:WorkflowViewState.IdRef="NGetText_1" ScopeIdentifier="70ac9a6e-ee7b-4d8e-8773-92009c4087bd" TextString="[out_HashResult]" Version="V5">
               <uix:NGetText.Target>
                 <uix:TargetAnchorable BrowserURL="codebeautify.org/sha1-hash-generator" CVScreenId="7d86983b-ac56-42b6-9c7d-47fff4e463bc" ContentHash="oHo42OGHpkuw1_yumYQYVg" CvElementArea="381, 630, 667, 194" CvType="InputBox" DesignTimeRectangle="386, 632, 660, 192" ElementType="InputBox" ElementVisibilityArgument="Interactive" FuzzySelectorArgument="&lt;webctrl id='outputTextArea' tag='TEXTAREA' type='' class='textarea is-large is-info' placeholder='Generated SHA1 Hash' aaname='' matching:id='fuzzy' fuzzylevel:id='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' /&gt;" Guid="1df5fd28-9604-46da-a5ad-f5ab52df43f6" InformativeScreenshot="37ee8521d860304eae3679def89afdd1.png" IsResponsive="True" Reference="9XvhSLxUqk2nJyz-t8UiHg/UxeXFntj9EWK0OYu0JpCCA" ScopeSelectorArgument="&lt;html app='msedge.exe' title='SHA-1 Hash Generator Online Tool' /&gt;" SearchSteps="FuzzySelector, CV" Version="V6" WaitForReadyArgument="Interactive">
                   <uix:TargetAnchorable.Anchors>
@@ -204,6 +207,6 @@
         </uix:TargetApp>
       </uix:NApplicationCard.TargetApp>
     </uix:NApplicationCard>
-    <ui:LogMessage DisplayName="SHA1 Generated Hash" sap:VirtualizedContainerService.HintSize="452,166" sap2010:WorkflowViewState.IdRef="LogMessage_1" Level="Info" Message="[&quot;SHA1 Generated Hash: &quot; + out_HashResult]" />
+    <ui:LogMessage DisplayName="SHA1 Generated Hash" sap:VirtualizedContainerService.HintSize="452,167.33333333333334" sap2010:WorkflowViewState.IdRef="LogMessage_1" Level="Info" Message="[&quot;SHA1 Generated Hash: &quot; + out_HashResult]" />
   </Sequence>
 </Activity>

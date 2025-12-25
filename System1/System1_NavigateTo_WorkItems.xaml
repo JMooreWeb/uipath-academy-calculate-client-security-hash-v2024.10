@@ -90,42 +90,46 @@
       <AssemblyReference>System.Memory</AssemblyReference>
       <AssemblyReference>System.Private.Uri</AssemblyReference>
       <AssemblyReference>System.Linq.Expressions</AssemblyReference>
+      <AssemblyReference>System.Memory.Data</AssemblyReference>
     </sco:Collection>
   </TextExpression.ReferencesForImplementation>
-  <Sequence sap2010:Annotation.AnnotationText="Navigates to Work Items Page&#xA;&#xA;Pre-condition: System 1 Dashboard is opened&#xA;Post-action: Work Items Page opened" DisplayName="System1_NavigateTo_WorkItems" sap:VirtualizedContainerService.HintSize="1556,1169" sap2010:WorkflowViewState.IdRef="Sequence_1">
+  <Sequence sap2010:Annotation.AnnotationText="Navigates to Work Items Page&#xA;&#xA;Pre-condition: System 1 Dashboard is opened&#xA;Post-action: Work Items Page opened" DisplayName="System1_NavigateTo_WorkItems" sap:VirtualizedContainerService.HintSize="1584.6666666666665,1371.3333333333333" sap2010:WorkflowViewState.IdRef="Sequence_1">
     <sap:WorkflowViewStateService.ViewState>
       <scg:Dictionary x:TypeArguments="x:String, x:Object">
         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
         <x:Boolean x:Key="IsAnnotationDocked">True</x:Boolean>
       </scg:Dictionary>
     </sap:WorkflowViewStateService.ViewState>
-    <ui:LogMessage DisplayName="Navigate to ACME System 1 Work Items" sap:VirtualizedContainerService.HintSize="488,175" sap2010:WorkflowViewState.IdRef="LogMessage_1" Level="Info" Message="[&quot;Navigating to ACME System 1 Work Items&quot;]" />
-    <uix:NCheckState DisplayName="Check App State 'Dashboard'" HealingAgentBehavior="Disabled" sap:VirtualizedContainerService.HintSize="488,894" sap2010:WorkflowViewState.IdRef="NCheckState_1" Version="V5">
+    <ui:LogMessage DisplayName="Navigate to ACME System 1 Work Items" sap:VirtualizedContainerService.HintSize="488,176.66666666666666" sap2010:WorkflowViewState.IdRef="LogMessage_1" Level="Info" Message="[&quot;Navigating to ACME System 1 Work Items&quot;]" />
+    <uix:NCheckState DisplayName="Check App State 'Dashboard'" HealingAgentBehavior="Disabled" sap:VirtualizedContainerService.HintSize="488,927.3333333333334" sap2010:WorkflowViewState.IdRef="NCheckState_1" Version="V5">
       <uix:NCheckState.IfExists>
-        <Sequence DisplayName="Target appears" sap:VirtualizedContainerService.HintSize="486,519" sap2010:WorkflowViewState.IdRef="Sequence_3">
+        <Sequence DisplayName="Target appears" sap:VirtualizedContainerService.HintSize="486,536" sap2010:WorkflowViewState.IdRef="Sequence_3">
           <sap:WorkflowViewStateService.ViewState>
             <scg:Dictionary x:TypeArguments="x:String, x:Object">
               <x:Boolean x:Key="IsExpanded">True</x:Boolean>
             </scg:Dictionary>
           </sap:WorkflowViewStateService.ViewState>
-          <uix:NApplicationCard AttachMode="ByInstance" CloseMode="[UiPath.UIAutomationNext.Enums.NAppCloseMode.Never]" DisplayName="ACME System 1 - Dashboard" HealingAgentBehavior="[UiPath.UIAutomationNext.Enums.NHealingAgentBehavior.Disabled]" sap:VirtualizedContainerService.HintSize="452,459" sap2010:WorkflowViewState.IdRef="NApplicationCard_1" InteractionMode="DebuggerApi" OpenMode="[UiPath.UIAutomationNext.Enums.NAppOpenMode.Never]" ScopeGuid="26fa9e22-c888-48f2-95d9-56b86f786101" Version="V2">
+          <uix:NApplicationCard AttachMode="ByInstance" CloseMode="[UiPath.UIAutomationNext.Enums.NAppCloseMode.Never]" DisplayName="ACME System 1 - Dashboard" HealingAgentBehavior="[UiPath.UIAutomationNext.Enums.NHealingAgentBehavior.Disabled]" sap:VirtualizedContainerService.HintSize="452,472" sap2010:WorkflowViewState.IdRef="NApplicationCard_1" InteractionMode="DebuggerApi" OpenMode="[UiPath.UIAutomationNext.Enums.NAppOpenMode.Never]" ScopeGuid="26fa9e22-c888-48f2-95d9-56b86f786101" Version="V2">
             <uix:NApplicationCard.Body>
               <ActivityAction x:TypeArguments="x:Object">
                 <ActivityAction.Argument>
                   <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
                 </ActivityAction.Argument>
-                <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="450,317" sap2010:WorkflowViewState.IdRef="Sequence_2">
+                <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="450,326" sap2010:WorkflowViewState.IdRef="Sequence_2">
                   <sap:WorkflowViewStateService.ViewState>
                     <scg:Dictionary x:TypeArguments="x:String, x:Object">
                       <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                     </scg:Dictionary>
                   </sap:WorkflowViewStateService.ViewState>
-                  <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Work Items'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,257" sap2010:WorkflowViewState.IdRef="NClick_1" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="26fa9e22-c888-48f2-95d9-56b86f786101" Version="V5">
+                  <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Work Items'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,262" sap2010:WorkflowViewState.IdRef="NClick_1" InteractionMode="Simulate" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="26fa9e22-c888-48f2-95d9-56b86f786101" Version="V5">
                     <uix:NClick.Target>
                       <uix:TargetAnchorable BrowserURL="acme-test.uipath.com/home" CVScreenId="c6df64ee-3e97-486b-835b-879888de6504" ContentHash="mkNl19GdH0yXN9ZJRATYnQ" CvElementArea="778, 451, 206, 50" CvTextArea="846, 467, 93, 16" CvTextArgument="Work Items" CvType="Button" DesignTimeRectangle="781, 453, 200, 46" ElementType="Button" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl aaname='                          Work Items' parentid='dashmenu' tag='BUTTON' /&gt;" Guid="338db1c2-e3ab-4548-960a-00b1cf7e14ec" InformativeScreenshot="1a1a61ab1ee131fa8140f95e8f460942.png" Reference="9XvhSLxUqk2nJyz-t8UiHg/Ln1doP8vz0uBT_Q3jXideA" ScopeSelectorArgument="&lt;html app='msedge.exe' title='ACME System 1 - Dashboard' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive" />
                     </uix:NClick.Target>
                     <uix:NClick.VerifyOptions>
                       <uix:VerifyExecutionOptions DisplayName="Verification target" Mode="Appears">
+                        <uix:VerifyExecutionOptions.Retry>
+                          <InArgument x:TypeArguments="x:Boolean" />
+                        </uix:VerifyExecutionOptions.Retry>
                         <uix:VerifyExecutionOptions.Target>
                           <uix:TargetAnchorable BrowserURL="acme-test.uipath.com/work-items" CVScreenId="4b54a78b-5786-4370-849d-2719b3ebcde2" ContentHash="6yuWWGFv_kOT5yszNHozFw" CvTextArea="709, 175, 184, 31" CvTextArgument="Work Items" CvType="Text" DesignTimeRectangle="711, 172, 1140, 50" ElementType="Text" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl tag='H1' visibleinnertext='Work Items' /&gt;" Guid="e41c9673-a2dc-45ba-a959-f5dfcf7beb57" InformativeScreenshot="3fbca592a6e3b2040e26964ab40a91be.png" Reference="9XvhSLxUqk2nJyz-t8UiHg/CFPDsC6NWkGpJp5Fy0F_JA" ScopeSelectorArgument="&lt;html app='msedge.exe' title='ACME System 1 - Work Items' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="None" />
                         </uix:VerifyExecutionOptions.Target>
@@ -162,7 +166,7 @@
         </Sequence>
       </uix:NCheckState.IfExists>
       <uix:NCheckState.IfNotExists>
-        <Sequence DisplayName="Target does not appear" sap:VirtualizedContainerService.HintSize="486,90" sap2010:WorkflowViewState.IdRef="Sequence_4">
+        <Sequence DisplayName="Target does not appear" sap:VirtualizedContainerService.HintSize="486,94.66666666666667" sap2010:WorkflowViewState.IdRef="Sequence_4">
           <sap:WorkflowViewStateService.ViewState>
             <scg:Dictionary x:TypeArguments="x:String, x:Object">
               <x:Boolean x:Key="IsExpanded">True</x:Boolean>
@@ -174,5 +178,6 @@
         <uix:TargetAnchorable BrowserURL="acme-test.uipath.com/home" CVScreenId="771a0595-34ba-4b0e-b01c-7290c4aed9fa" ContentHash="kH-eDUBbPEypTG1Yw7NYAQ" CvTextArea="710, 175, 177, 31" CvTextArgument="Dashboard" CvType="Text" DesignTimeRectangle="711, 172, 1140, 50" ElementType="Text" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl tag='H1' visibleinnertext='Dashboard' /&gt;" Guid="5dd04578-17fb-4bee-87df-16e43cbba997" InformativeScreenshot="d02b60ed9812f6e30e91ff190a490572.png" Reference="9XvhSLxUqk2nJyz-t8UiHg/Go1yho5R2EOr47vUhqm7bQ" ScopeSelectorArgument="&lt;html app='msedge.exe' title='ACME System 1 - Dashboard' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="None" />
       </uix:NCheckState.Target>
     </uix:NCheckState>
+    <ui:LogMessage DisplayName="Navigate to ACME System 1 Work Items" sap:VirtualizedContainerService.HintSize="488,167.33333333333334" sap2010:WorkflowViewState.IdRef="LogMessage_2" Level="Info" Message="[&quot;End of Navigating to ACME System 1 Work Items&quot;]" />
   </Sequence>
 </Activity>
